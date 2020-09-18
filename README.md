@@ -1,7 +1,9 @@
 # ■mnister
 You can easily make AI recognize the numbers you wrote.
 The execution environment of mnister can be executed on Google Colab or Local PC.
-  
+
+![Design](https://user-images.githubusercontent.com/69660581/93613488-e4e4b700-fa0b-11ea-807d-8a38d6c91363.png)
+
 ## ☁：When running on Google Colab
 see -> https://github.com/PoodleMaster/mnister/blob/master/mnister.ipynb
 
