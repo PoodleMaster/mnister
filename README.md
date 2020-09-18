@@ -84,6 +84,8 @@ Start your browser and access the following URL:(http://127.0.0.1:5000)
 # ■Create MNIST model
 If you want to create a MNIST model, please use **'CreateMnistModel.ipynb'**.
 
+![CreateMnistModel](https://user-images.githubusercontent.com/69660581/93615055-df886c00-fa0d-11ea-8f1c-92d5edea6f46.PNG)
+
 ## ☁：Running on Google Colab
 see -> https://github.com/PoodleMaster/mnister/blob/master/CreateMnistModel.ipynb
 
