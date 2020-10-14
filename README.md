@@ -58,7 +58,7 @@ c:\>conda activate mnister37
 (mnister37) c:\>git clone https://github.com/PoodleMaster/mnister.git
 ```
 
-### 4. Install python libraries:
+### 4. Install python libraries
 ```cmd
 (mnister37) c:\>cd mnister
 (mnister37) c:\mnister>conda install flask pillow matplotlib
@@ -81,7 +81,7 @@ Start your browser and access the following URL:(http://127.0.0.1:5000)
 ### 6. Execution Sample
 ![mnister sample localhost](https://user-images.githubusercontent.com/69660581/93540433-9d6c1580-f98e-11ea-97e0-ec2d3b98326a.gif)
 
-# ■Create MNIST model
+# ■【Extra】Create MNIST model
 If you want to create a MNIST model, please use **'CreateMnistModel.ipynb'**.
 
 ![CreateMnistModel](https://user-images.githubusercontent.com/69660581/93615055-df886c00-fa0d-11ea-8f1c-92d5edea6f46.PNG)
