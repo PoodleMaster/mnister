@@ -81,13 +81,13 @@ Start your browser and access the following URL:(http://127.0.0.1:5000)
 ### 6. Execution Sample
 ![mnister sample localhost](https://user-images.githubusercontent.com/69660581/93540433-9d6c1580-f98e-11ea-97e0-ec2d3b98326a.gif)
 
-# ■【Extra】Create MNIST model
-If you want to create a MNIST model, please use **'CreateMnistModel.ipynb'**.
+# ■【Extra】ImageDataGenerator model
+If you want to create a MNIST model, please use **'ImageDataGenerator.ipynb'**.
 
-![CreateMnistModel](https://user-images.githubusercontent.com/69660581/93615055-df886c00-fa0d-11ea-8f1c-92d5edea6f46.PNG)
+![ImageDataGenerator](https://user-images.githubusercontent.com/69660581/93615055-df886c00-fa0d-11ea-8f1c-92d5edea6f46.PNG)
 
 ## ☁：Running on Google Colab
-see -> https://github.com/PoodleMaster/mnister/blob/master/CreateMnistModel.ipynb
+see -> https://github.com/PoodleMaster/mnister/blob/master/Extra/ImageDataGenerator.ipynb
 
 ### 1. Build Python Environment
 Load **'CreateMnistModel.ipynb'** in Google Colab and execute all cells.
