@@ -82,32 +82,16 @@ Start your browser and access the following URL:(http://127.0.0.1:5000)
 ![mnister sample localhost](https://user-images.githubusercontent.com/69660581/93540433-9d6c1580-f98e-11ea-97e0-ec2d3b98326a.gif)
 
 # ■【Extra】ImageDataGenerator model
-If you want to create a MNIST model, please use **'ImageDataGenerator.ipynb'**.
+A model with improved recognition rate using ImageDataGenerator is also included.
 
-![ImageDataGenerator](https://user-images.githubusercontent.com/69660581/93615055-df886c00-fa0d-11ea-8f1c-92d5edea6f46.PNG)
+Use the ImageDataGenerator model to increase the recognition rate.
+The ImageDataGenerator model can be found at "mnister / Extra / colab_mnist.hdf5".
+Replace it with "[mnister/Extra/colab_mnist.hdf5] → [mnister/colab_mnist.hdf5]".
 
-## ☁：Running on Google Colab
-see -> https://github.com/PoodleMaster/mnister/blob/master/Extra/ImageDataGenerator.ipynb
-
-### 1. Build Python Environment
-Load **'CreateMnistModel.ipynb'** in Google Colab and execute all cells.
-
-### 2. Create MNIST model
-1. Set [Runtime]-[Change Runtime Type]-[Hardware Accelerator] to GPU
-2. Execute [Runtime]-[Execute all cells]
-3. Make sure you have an hdf5 file at the following:(GoogleColab:/content/colab_mnist.hdf5)
-4. Make sure the hdf5 file is downloaded.<BR>
-
-![model download](https://user-images.githubusercontent.com/69660581/93541052-639c0e80-f990-11ea-8d13-e695278f3611.png)
-
-### 3. Set Your Created MNIST model
-Replace it with the hdf5 file stored directly under mnister(mnister/colab_mnist.hdf5). 
 - When running on Google Colab<BR>
-
 ![Replace](https://user-images.githubusercontent.com/69660581/93542177-4ae12800-f993-11ea-9c00-3449b00b2d31.png)
 
 - When running on Loacl PC<BR>
-
 ![Replace](https://user-images.githubusercontent.com/69660581/93542613-71ec2980-f994-11ea-95a6-46e82c0e3229.PNG)
 
 # ■Contributing
