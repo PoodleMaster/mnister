@@ -85,7 +85,7 @@ Start your browser and access the following URL:(http://127.0.0.1:5000)
 A model with improved recognition rate using ImageDataGenerator is also included.
 
 Use the ImageDataGenerator model to increase the recognition rate.
-The ImageDataGenerator model can be found at "mnister / Extra / colab_mnist.hdf5".
+The ImageDataGenerator model can be found at "[mnister/Extra/colab_mnist.hdf5]".
 Replace it with "[mnister/Extra/colab_mnist.hdf5] → [mnister/colab_mnist.hdf5]".
 
 - When running on Google Colab<BR>
