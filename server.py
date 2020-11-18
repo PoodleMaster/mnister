@@ -1,6 +1,8 @@
+############################################################
+# mnister (keras save_model) by PoodleMaster
+############################################################
 import argparse
 import tensorflow
-# import keras
 import base64
 import json
 import numpy as np
@@ -8,8 +10,6 @@ from flask import Flask, request, render_template, jsonify
 from flask_ngrok import run_with_ngrok
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
-# from keras.models import load_model
-# from keras.preprocessing.image import img_to_array
 from io import BytesIO
 from PIL import Image
 
