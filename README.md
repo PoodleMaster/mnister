@@ -82,17 +82,15 @@ Start your browser and access the following URL:(http://127.0.0.1:5000)
 ![mnister sample localhost](https://user-images.githubusercontent.com/69660581/93540433-9d6c1580-f98e-11ea-97e0-ec2d3b98326a.gif)
 
 # ■【Extra】ImageDataGenerator model
-A model with improved recognition rate using ImageDataGenerator is also included.
+A generalized version created by [MNIST_ImageDataGenerator] is attached.
+Swap the models and play around with the difference in recognition rates.
 
-Use the ImageDataGenerator model to increase the recognition rate.
-The ImageDataGenerator model can be found at "[mnister/Extra/colab_mnist.hdf5]".
-Replace it with "[mnister/Extra/colab_mnist.hdf5] → [mnister/colab_mnist.hdf5]".
+> The ImageDataGenerator model can be found at "[mnister/Extra/colab_mnist.hdf5]".
+> Replace it with "[mnister/Extra/colab_mnist.hdf5] → [mnister/colab_mnist.hdf5]".
 
-- When running on Google Colab<BR>
-![Replace](https://user-images.githubusercontent.com/69660581/93542177-4ae12800-f993-11ea-9c00-3449b00b2d31.png)
-
-- When running on Loacl PC<BR>
-![Replace](https://user-images.githubusercontent.com/69660581/93542613-71ec2980-f994-11ea-95a6-46e82c0e3229.PNG)
+# ■Sample
+Please access the following URL.
+URL：https://mnister-web.herokuapp.com/
 
 # ■Contributing
 Contributions, issues and feature requests are welcome.
