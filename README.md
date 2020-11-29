@@ -82,7 +82,7 @@ Start your browser and access the following URL:(http://127.0.0.1:5000)
 ![mnister sample localhost](https://user-images.githubusercontent.com/69660581/93540433-9d6c1580-f98e-11ea-97e0-ec2d3b98326a.gif)
 
 # ■【Extra】ImageDataGenerator model
-A generalized version created by [MNIST_ImageDataGenerator] is attached.
+A generalized version created by [MNIST_ImageDataGenerator](https://github.com/PoodleMaster/MNIST_ImageDataGenerator) is attached.
 Swap the models and play around with the difference in recognition rates.
 
 ```
