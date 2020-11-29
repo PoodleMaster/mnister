@@ -85,11 +85,14 @@ Start your browser and access the following URL:(http://127.0.0.1:5000)
 A generalized version created by [MNIST_ImageDataGenerator] is attached.
 Swap the models and play around with the difference in recognition rates.
 
-> The ImageDataGenerator model can be found at "[mnister/Extra/colab_mnist.hdf5]".
-> Replace it with "[mnister/Extra/colab_mnist.hdf5] → [mnister/colab_mnist.hdf5]".
+```
+The ImageDataGenerator model can be found at "[mnister/Extra/colab_mnist.hdf5]".
+Replace it with "[mnister/Extra/colab_mnist.hdf5] → [mnister/colab_mnist.hdf5]".
+```
 
 # ■Sample
 Please access the following URL.
+
 URL：https://mnister-web.herokuapp.com/
 
 # ■Contributing
