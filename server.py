@@ -62,6 +62,9 @@ label = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 model = load_model('colab_mnist.hdf5')
 model.summary()
 
+# Input Sizeの自動判別
+_, img_w, img_h, img_ch = model.layers[0].input.shape
+print("img_w:{} img_h:{} img_ch:{}".format(img_w, img_h, img_ch))
 
 ############################################################
 # index.html
@@ -88,7 +91,7 @@ def output():
     # pillow形式で読み込み画像のリサイズを行う
     imgPIL = Image.open(BytesIO(bindata)).convert('RGB')
     imgPIL = imgPIL.convert('L')                # グレースケール
-    imgPIL = imgPIL.resize((28, 28))            # リサイズ
+    imgPIL = imgPIL.resize((img_w, img_h))      # リサイズ
 #   imgPIL.show()
 
     # pillow形式→バイナリ変換
