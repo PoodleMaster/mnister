@@ -90,7 +90,8 @@ def output():
 
     # pillow形式で読み込み画像のリサイズを行う
     imgPIL = Image.open(BytesIO(bindata)).convert('RGB')
-    imgPIL = imgPIL.convert('L')                # グレースケール
+    if img_ch == 1:
+        imgPIL = imgPIL.convert('L')            # グレースケール
     imgPIL = imgPIL.resize((img_w, img_h))      # リサイズ
 #   imgPIL.show()
 
